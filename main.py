@@ -8,7 +8,7 @@ html_template = '''
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Portal de T.I - Engenharia de Software Avançada</title>
+    <title>Code.Flow - Engenharia de Software Avançada</title>
     <style>
         body {
             background-color: #121212; /* Preto escuro */
@@ -23,6 +23,7 @@ html_template = '''
             text-align: center;
             font-size: 2em;
             color: white;
+            font-weight: bold;
         }
         nav {
             background-color: #333333; /* Cinza escuro */
@@ -75,7 +76,7 @@ html_template = '''
     </style>
 </head>
 <body>
-    <header>Portal de T.I - Engenharia de Software Avançada</header>
+    <header>Code.Flow - Engenharia de Software Avançada</header>
     <nav>
         <a href="#engenharia">Engenharia de Software</a>
         <a href="#computacao">Ciência da Computação</a>
