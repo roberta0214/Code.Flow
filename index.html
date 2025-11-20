@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Code.Flow - Engenharia de Software Avançada</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <h1 class="brand">Code.Flow</h1>
+      <button id="menuToggle" class="menu-toggle" aria-label="Abrir menu">☰</button>
+      <nav id="mainNav" class="main-nav">
+        <a href="#engenharia">Engenharia de Software</a>
+        <a href="#computacao">Ciência da Computação</a>
+        <a href="#analise">Análise e Desenvolvimento</a>
+        <a href="#engenharia_computacao">Engenharia da Computação</a>
+        <a href="#manutencao">Manutenção</a>
+        <a href="#pericia">Perícia</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section id="hero" class="hero">
+      <h2>Engenharia de Software Avançada</h2>
+      <p>Conteúdos, boas práticas e técnicas modernas para projetar, testar e manter sistemas confiáveis e escaláveis.</p>
+    </section>
+
+    <section id="engenharia" class="card">
+      <h2>Engenharia de Software</h2>
+      <div class="content-section">
+        <h3>Conteúdo Básico</h3>
+        <p>A engenharia de software dedica-se ao desenvolvimento de sistemas complexos, com foco em processos, requisitos, design, testes e manutenção.</p>
+      </div>
+      <div class="content-section">
+        <h3>Conteúdo Avançado</h3>
+        <p>Arquiteturas (microsserviços, SOA), DevOps, CI/CD, testes automatizados, análise de performance e padrões de projeto.</p>
+      </div>
+    </section>
+
+    <section id="computacao" class="card">
+      <h2>Ciência da Computação</h2>
+      <div class="content-section">
+        <h3>Conteúdo Básico</h3>
+        <p>Fundamentos teóricos: algoritmos, estruturas de dados, lógica e arquitetura de computadores.</p>
+      </div>
+      <div class="content-section">
+        <h3>Conteúdo Avançado</h3>
+        <p>Paralelismo, teoria da computação, aprendizado de máquina, criptografia e sistemas distribuídos.</p>
+      </div>
+    </section>
+
+    <section id="analise" class="card">
+      <h2>Análise e Desenvolvimento de Sistemas</h2>
+      <div class="content-section">
+        <h3>Conteúdo Básico</h3>
+        <p>Requisitos, modelagem, programação e implantação de soluções que resolvem problemas de negócio.</p>
+      </div>
+    </section>
+
+    <section id="engenharia_computacao" class="card">
+      <h2>Engenharia da Computação</h2>
+      <div class="content-section">
+        <h3>Conteúdo Básico</h3>
+        <p>Integração hardware + software: microcontroladores, sistemas embarcados e programação de baixo nível.</p>
+      </div>
+    </section>
+
+    <section id="manutencao" class="card">
+      <h2>Manutenção de Computadores e Celulares</h2>
+      <div class="content-section">
+        <h3>Conteúdo Básico</h3>
+        <p>Diagnóstico, troca de peças, formatação, remoção de malwares e otimização de desempenho.</p>
+      </div>
+    </section>
+
+    <section id="pericia" class="card">
+      <h2>Perícia Computacional</h2>
+      <div class="content-section">
+        <h3>Conteúdo Básico</h3>
+        <p>Coleta e análise de evidências digitais: logs, imagens forenses, análise de malware e investigação de incidentes.</p>
+      </div>
+    </section>
+
+    <section id="contact" class="card contact-card">
+      <h2>Contato</h2>
+      <p>Quer sugerir conteúdo ou relatar um erro? Envie uma mensagem (simulada).</p>
+      <form id="contactForm" class="contact-form" onsubmit="handleContact(event)">
+        <input type="text" id="name" placeholder="Seu nome" required>
+        <input type="email" id="email" placeholder="Seu email" required>
+        <textarea id="message" placeholder="Sua mensagem" rows="4" required></textarea>
+        <button type="submit">Enviar</button>
+        <p id="formMsg" class="form-msg" aria-live="polite"></p>
+      </form>
+    </section>
+
+    <footer class="site-footer">
+      <div class="container">
+        <p>© <span id="year"></span> Code.Flow — Engenharia de Software Avançada</p>
+      </div>
+    </footer>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+  </html>
